@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Portfolio</title>
+	</head>
+	<body>
+		<!-- User Story #1: My portfolio should have a welcome section with an id of welcome-section.-->
+		<section id="welcome-section">
+			<!-- User Story #6: My portfolio should have a navbar with an id of navbar.-->
+			<nav id="navbar">
+				<!-- User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page.-->
+				<ol>
+					<li class="nav-link"><a href="#welcome-section">About</a></li>
+					<li class="nav-link"><a href="#project-section">Projects</a></li>
+					<li class="nav-link"><a href="#contact-section">Contact</a></li>
+				</ol>
+			</nav>
+			<!-- User Story #2: The welcome section should have an h1 element that contains text.-->
+			<h1>Hi there, my name is Christina;</h1>
+			<h2>I'm a visual artist & front end web developer.</h2>
+		</section>
+
+		<!-- User Story #3: My portfolio should have a projects section with an id of projects.-->
+		<section id="project-section">
+			<h2>Let me show you some of the things I've been working on...</h2>
+			<!-- User Story #4: The projects section should contain at least one element with a class of project-tile to hold a project.-->
+			<div class="project-tile">
+				<img src="placeholder.png" alt="Sample image to be replaced" />
+			</div>
+			<div class="project-tile">
+				<img src="placeholder.png" alt="Sample image to be replaced" />
+			</div>
+			<div class="project-tile">
+				<img src="placeholder.png" alt="Sample image to be replaced" />
+			</div>
+			<div class="project-tile">
+				<img src="placeholder.png" alt="Sample image to be replaced" />
+			</div>
+			<div class="project-tile">
+				<img src="placeholder.png" alt="Sample image to be replaced" />
+			</div>
+			<div class="project-tile">
+				<img src="placeholder.png" alt="Sample image to be replaced" />
+			</div>
+
+			<!-- User Story #8: My portfolio should have a link with an id of profile-link, which opens my GitHub or FCC profile in a new tab.-->
+			<a
+				target="_blank"
+				href="https://github.com/christinagiancola"
+				id="profile-link"
+				>Visit my GitHub Profile!</a
+			>
+		</section>
+
+		<section id="contact-section">
+			<h3>Contact:</h3>
+			<form action="" class="form">
+				<div class="form form-group">
+					<label for="Name" class="form form-label">Your Name</label>
+					<div class="form input-group">
+						<input
+							type="text"
+							class="form form-control"
+							id="Name"
+							name="Name"
+						/>
+					</div>
+				</div>
+				<div class="form form-group">
+					<label for="Email" class="form form-label">Your Email</label>
+					<div class="form input-group">
+						<input
+							type="email"
+							class="form form-control"
+							id="Email"
+							name="Email"
+						/>
+					</div>
+				</div>
+				<div class="form form-group">
+					<label for="Message" class="form form-label">Your Message</label>
+					<div class="form input-group">
+						<textarea
+							name="Message"
+							class="form form-control"
+							id="Message"
+							rows="6"
+							maxlength="3000"
+							required
+						></textarea>
+					</div>
+				</div>
+				<div class="form form-group">
+					<button type="submit" id="button">Send Message</button>
+				</div>
+			</form>
+		</section>
+
+		<footer></footer>
+	</body>
+</html>
+
+<!-- User Story #5: The projects section should contain at least one link to a project.-->
