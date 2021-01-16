@@ -9,7 +9,13 @@ img {
 	height: auto;
 }
 
-#contact-section {
+ol {
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar {
+  border: 1px solid red;
 }
 
 #welcome-section {
