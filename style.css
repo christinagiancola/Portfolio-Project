@@ -10,18 +10,25 @@ img {
 }
 
 nav {
-  height: 50px;
+	height: 50px;
 }
 
 section {
-  padding-top: 50px;
+	padding-top: 50px;
 }
 
 ul {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 #welcome-section {
 	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#welcome-text {
+	text-align: center;
 }
